@@ -55,7 +55,7 @@ const skillsSection = {
     ),
     emoji("⚡ Develop microservices architectures with Docker, Kafka, and databases like MongoDB and SQL"),
     emoji(
-      "⚡ Optimize algorithms in Python for real-world problems, including AI and quantitative finance explorations"
+      "⚡ Optimize algorithms in Python for real-world problems"
     ),
     emoji(
       "⚡ Work on embedded systems with Arduino and AVR microprocessors"
@@ -149,7 +149,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Grit:lab",
-      //logo: require("./assets/images/gritlabLogo.png"), // Add your logo image
+      logo: require("./assets/images/gritlabLogo.png"), // Add your logo image
       subHeader: "Further Vocational Qualification in ICT",
       duration: "September 2024 - August 2026",
       desc: "Intensive, project-based learning focused on Go, JavaScript (Vue, Angular), and Java (Spring Boot, Microservices). Emphasizes practical problem-solving, teamwork, and peer-to-peer learning.",
@@ -219,13 +219,13 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/evacuation-planning" // Update with actual link if available
+          url: "https://github.com/mahdikheirkhah/Multi-Objective-Location-Allocation-NSGA-II" // Update with actual link if available
         }
       ]
     },
     {
       //image: require("./assets/images/buy01Project.png"), // Add your image
-      projectName: "buy-01 (E-commerce Microservices)",
+      projectName: "buy-01",
       projectDesc: "Architected and developed a microservices-based e-commerce platform using Java, Spring Boot, and MongoDB on the backend and Angular for the frontend. Implemented Eureka for service discovery, Kafka for asynchronous request handling, and an API Gateway to manage and route traffic.",
       footerLink: [
         {
@@ -237,7 +237,7 @@ const bigProjects = {
     {
       //image: require("./assets/images/socialNetworkProject.png"), // Add your image
       projectName: "social-network",
-      projectDesc: "Created a full-stack social network application (similar to Facebook) using Vue.js for a dynamic, reactive frontend and Go with SQLite for the backend.",
+      projectDesc: "Created a full-stack social network application (similar to Facebook) using Vue.js for a dynamic, reactive frontend and Go with SQLite for the backend. using Github OAuth for secure authentication.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -258,23 +258,23 @@ const bigProjects = {
     },
     {
       //image: require("./assets/images/bombermanProject.png"), // Add your image
-      projectName: "bomberman (Custom Framework)",
+      projectName: "bomberman",
       projectDesc: "Built a real-time multiplayer Bomberman game using a custom-built JavaScript framework for state management, routing, and events. Powered the backend with Go and WebSockets for live connectivity.",
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/bomberman" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/bomberman-dom" // Update with actual link
         }
       ]
     },
     {
       //image: require("./assets/images/graphqlProject.png"), // Add your image
-      projectName: "GraphQL Data Visualization Dashboard",
+      projectName: "GraphQL",
       projectDesc: "Built a JavaScript frontend application to query a GraphQL endpoint, constructing proper requests with query bodies to fetch dynamic data sets efficiently. Integrated SVG for rendering custom charts, including line charts for time-series data and radar charts for comparative analysis.",
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/graphql-dashboard" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/GraphQL" // Update with actual link
         }
       ]
     }
@@ -343,7 +343,7 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+3584573482021",
   email_address: "mahdikheirkhah060@gmail.com",
-  display: true
+  display: false
 };
 
 // Twitter Section
