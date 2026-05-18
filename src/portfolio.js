@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Go",
-      fontAwesomeClassname: "fa fa-code" 
+      fontAwesomeClassname: "fa fa-code"
     },
     {
       skillName: "SQL & Snowflake",
@@ -99,7 +99,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Streamlit",
-      fontAwesomeClassname: "fas fa-desktop" 
+      fontAwesomeClassname: "fas fa-desktop"
     },
     {
       skillName: "docker",
@@ -107,7 +107,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kafka",
-      fontAwesomeClassname: "fa fa-stream" 
+      fontAwesomeClassname: "fa fa-stream"
     },
     {
       skillName: "JavaScript",
@@ -115,7 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C/C++",
-      fontAwesomeClassname: "fa fa-code" 
+      fontAwesomeClassname: "fa fa-code"
     },
     {
       skillName: "Git",
@@ -201,7 +201,8 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
+  subtitle:
+    "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
   projects: [
     {
       //image: require("./assets/images/nlpProject.png"), // Add your image
@@ -235,7 +236,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/spectral-learning" 
+          url: "https://github.com/mahdikheirkhah/spectral-learning"
         }
       ]
     },
@@ -293,9 +294,9 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", 
+  displayMediumBlogs: "true",
   blogs: [],
-  display: false 
+  display: false
 };
 
 // Talks Sections
@@ -305,7 +306,7 @@ const talkSection = {
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
   talks: [],
-  display: false 
+  display: false
 };
 
 // Podcast Section
@@ -313,14 +314,14 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
   podcast: [],
-  display: false 
+  display: false
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-  display: true 
+  display: true
 };
 
 const contactInfo = {
@@ -334,11 +335,11 @@ const contactInfo = {
 
 // Twitter Section
 const twitterDetails = {
-  userName: "twitter", 
-  display: false 
+  userName: "twitter",
+  display: false
 };
 
-const isHireable = true; 
+const isHireable = true;
 
 export {
   illustration,
