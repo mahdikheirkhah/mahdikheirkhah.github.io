@@ -23,7 +23,7 @@ const greeting = {
   username: "Mohammad Mahdi Kheirkhah",
   title: "Hey, I'm Mahdi",
   subTitle: emoji(
-    "An enthusiastic Full-Stack Developer passionate about building scalable applications and exploring AI in quantitative finance."
+    "A Software Engineer and Data enthusiast bridging the gap between scalable full-stack applications, machine learning, and statistical optimization."
   ),
   resumeLink: "src/containers/greeting/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -49,16 +49,20 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "FULL-STACK DEVELOPER EAGER TO MASTER NEW TECH STACKS IN SOFTWARE AND FINANCE",
+    "SOFTWARE ENGINEER SPECIALIZING IN SCALABLE SYSTEMS, MACHINE LEARNING, AND MATHEMATICAL OPTIMIZATION",
   skills: [
     emoji(
-      "⚡ Build full-stack applications using Java (Spring Boot), Go, and JavaScript frameworks like Angular and Vue.js"
+      "⚡ Build robust full-stack applications and microservices using Java (Spring Boot) and Go"
     ),
     emoji(
-      "⚡ Develop microservices architectures with Docker, Kafka, and databases like MongoDB and SQL"
+      "⚡ Architect end-to-end data pipelines using Snowflake, Python, and stream processing (Kafka)"
     ),
-    emoji("⚡ Optimize algorithms in Python for real-world problems"),
-    emoji("⚡ Work on embedded systems with Arduino and AVR microprocessors")
+    emoji(
+      "⚡ Design and fine-tune Machine Learning models (NLP, Recommender Systems) using linear algebra and statistical methods"
+    ),
+    emoji(
+      "⚡ Bridge the gap between low-level embedded systems (IoT) and high-level predictive analytics"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -66,28 +70,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js" // No specific, reuse JS
-    },
-    {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "Vue.js",
-      fontAwesomeClassname: "fab fa-vuejs"
+      skillName: "NLP & Data",
+      fontAwesomeClassname: "fas fa-chart-bar"
     },
     {
       skillName: "Java",
@@ -99,23 +91,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Go",
-      fontAwesomeClassname: "fa fa-code" // No specific FA, use code
+      fontAwesomeClassname: "fa fa-code" 
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "C/C++",
-      fontAwesomeClassname: "fa fa-code" // No specific
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL & Snowflake",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fa fa-leaf" // Mongo leaf
+      skillName: "Streamlit",
+      fontAwesomeClassname: "fas fa-desktop" 
     },
     {
       skillName: "docker",
@@ -123,11 +107,15 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Kafka",
-      fontAwesomeClassname: "fa fa-stream" // Streams for Kafka
+      fontAwesomeClassname: "fa fa-stream" 
     },
     {
-      skillName: "GraphQL",
-      fontAwesomeClassname: "fa fa-project-diagram" // Diagram for GraphQL
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "C/C++",
+      fontAwesomeClassname: "fa fa-code" 
     },
     {
       skillName: "Git",
@@ -151,7 +139,7 @@ const educationInfo = {
       logo: require("./assets/images/gritlabLogo.png"), // Add your logo image
       subHeader: "Further Vocational Qualification in ICT",
       duration: "September 2024 - August 2026",
-      desc: "Intensive, project-based learning focused on Go, JavaScript (Vue, Angular), and Java (Spring Boot, Microservices). Emphasizes practical problem-solving, teamwork, and peer-to-peer learning.",
+      desc: "Intensive, project-based learning focused on Go, scalable systems (Java/Spring Boot), and applied Machine Learning algorithms (Python, PyTorch). Emphasizes practical problem-solving and peer-to-peer learning.",
       descBullets: []
     },
     {
@@ -159,11 +147,11 @@ const educationInfo = {
       logo: require("./assets/images/universityOfKashanLogo.png"), // Add your logo image
       subHeader: "Bachelor of Science in Computer Engineering",
       duration: "October 2019 - September 2024",
-      desc: "Core Skills: Algorithm Design & Analysis, Data Structures, Object-Oriented Programming (C++), Database Management (SQL), Operating Systems, Computer Networks.",
+      desc: "Core Skills: Artificial Intelligence, Data Mining, Algorithm Design & Analysis, Statistics, Linear Algebra, Database Management (SQL), and Hardware-Software Co-Design.",
       descBullets: [
-        "Final Year Project: Developed an evacuation planning optimization model using the NSGA-II algorithm in Python.",
-        "Teaching Experience: Teaching Assistant – Data Structures Course.",
-        " Specialized Coursework: Microprocessors & Assembly, Data Mining, Compiler Design, Optimization."
+        "Final Year Project: Developed a complex multi-objective optimization model using the NSGA-II algorithm in Python.",
+        "Teaching Experience: Teaching Assistant – Data Structures Course (focusing on code scalability and logical clarity).",
+        "Specialized Coursework: Software Systems Analysis and Design, Machine Language & Microprocessors, Optimization."
       ]
     }
   ]
@@ -175,19 +163,19 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Full-Stack Development",
-      progressPercentage: "30%"
-    },
-    {
-      Stack: "Backend & Microservices",
-      progressPercentage: "40%"
-    },
-    {
-      Stack: "Algorithms & Optimization",
+      Stack: "Mathematical Optimization & ML",
       progressPercentage: "45%"
     },
     {
-      Stack: "Embedded Systems",
+      Stack: "Backend & Cloud Architecture",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Data Engineering & Pipelines",
+      progressPercentage: "30%"
+    },
+    {
+      Stack: "Embedded Systems & IoT",
       progressPercentage: "15%"
     }
   ],
@@ -213,25 +201,61 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "KEY PROJECTS SHOWCASING MY SKILLS IN FULL-STACK AND OPTIMIZATION",
+  subtitle: "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
   projects: [
     {
-      //image: require("./assets/images/evacuationProject.png"), // Add your image
-      projectName: "Evacuation Planning Optimization",
+      //image: require("./assets/images/nlpProject.png"), // Add your image
+      projectName: "NLP News Scraper & Risk Intelligence",
       projectDesc:
-        "Optimized model with NSGA-II in Python, tuning hyperparameters via genetic algorithms for efficient real-world crisis mapping.",
+        "End-to-end NLP pipeline transforming raw RSS feeds into actionable Risk Intelligence. Utilizes Snowflake for warehousing, LinearSVC for topic classification, and GloVe semantic embeddings with a custom Double-Lock logic for corporate scandal detection.",
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/Multi-Objective-Location-Allocation-NSGA-II" // Update with actual link if available
+          url: "https://github.com/mahdikheirkhah/nlp-scraper" // Update with actual link
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/matrixProject.png"), // Add your image
+      projectName: "Matrix Factorization Recommender System",
+      projectDesc:
+        "Enterprise-grade movie recommendation engine utilizing Singular Value Decomposition (SVD) and Bayesian Probabilistic Matrix Factorization (PMF) to learn latent user preferences, featuring robust cold-start handling and an interactive Streamlit UI.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/Matrix-Factorization" // Update with actual link
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/spectralProject.png"), // Add your image
+      projectName: "Spectral Learning: PCA & SVD",
+      projectDesc:
+        "Built from-scratch implementations of Principal Component Analysis (PCA) and Singular Value Decomposition (SVD) using raw NumPy. Explored dimensionality reduction, mathematical equivalence, and K-Means clustering on high-dimensional datasets.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/spectral-learning" 
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/titanicProject.png"), // Add your image
+      projectName: "Titanic Survival Prediction Engine",
+      projectDesc:
+        "A robust machine learning pipeline for the Kaggle Titanic dataset. Emphasizes advanced feature engineering (KNN imputation), data leakage prevention via Scikit-Learn Pipelines, and a Soft-Voting Ensemble classifier.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/kaggle-titanic" // Update with actual link
         }
       ]
     },
     {
       //image: require("./assets/images/buy01Project.png"), // Add your image
-      projectName: "buy-01",
+      projectName: "buy-01 (E-commerce Microservices)",
       projectDesc:
-        "Architected and developed a microservices-based e-commerce platform using Java, Spring Boot, and MongoDB on the backend and Angular for the frontend. Implemented Eureka for service discovery, Kafka for asynchronous request handling, and an API Gateway to manage and route traffic.",
+        "Architected a scalable, event-driven e-commerce backend using Java, Spring Boot, and MongoDB. Implemented Eureka for service discovery, Kafka for asynchronous request handling, and an API Gateway to route traffic efficiently.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -240,50 +264,14 @@ const bigProjects = {
       ]
     },
     {
-      //image: require("./assets/images/socialNetworkProject.png"), // Add your image
-      projectName: "social-network",
+      //image: require("./assets/images/evacuationProject.png"), // Add your image
+      projectName: "Evacuation Planning Optimization",
       projectDesc:
-        "Created a full-stack social network application (similar to Facebook) using Vue.js for a dynamic, reactive frontend and Go with SQLite for the backend. using Github OAuth for secure authentication.",
+        "Developed a complex multi-objective optimization model using the NSGA-II genetic algorithm in Python. Demonstrated the ability to handle high-dimensional logic and prioritize computational efficiency in resource-constrained environments.",
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/social-network" // Update with actual link
-        }
-      ]
-    },
-    {
-      //image: require("./assets/images/realtimeForumProject.png"), // Add your image
-      projectName: "real-time-forum",
-      projectDesc:
-        "Upgraded a Go-based forum to feature real-time communication by integrating WebSockets, allowing for live updates without page reloads.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/real-time-forum" // Update with actual link
-        }
-      ]
-    },
-    {
-      //image: require("./assets/images/bombermanProject.png"), // Add your image
-      projectName: "bomberman",
-      projectDesc:
-        "Built a real-time multiplayer Bomberman game using a custom-built JavaScript framework for state management, routing, and events. Powered the backend with Go and WebSockets for live connectivity.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/bomberman-dom" // Update with actual link
-        }
-      ]
-    },
-    {
-      //image: require("./assets/images/graphqlProject.png"), // Add your image
-      projectName: "GraphQL",
-      projectDesc:
-        "Built a JavaScript frontend application to query a GraphQL endpoint, constructing proper requests with query bodies to fetch dynamic data sets efficiently. Integrated SVG for rendering custom charts, including line charts for time-series data and radar charts for comparative analysis.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/GraphQL" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/Multi-Objective-Location-Allocation-NSGA-II" // Update with actual link if available
         }
       ]
     }
@@ -292,58 +280,47 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [],
   display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", 
   blogs: [],
-  display: false // Set false to hide this section, defaults to true
+  display: false 
 };
 
 // Talks Sections
-
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
-
   talks: [],
-  display: false // Set false to hide this section, defaults to true
+  display: false 
 };
 
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
   podcast: [],
-  display: false // Set false to hide this section, defaults to true
+  display: false 
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
@@ -352,17 +329,16 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+3584573482021",
   email_address: "mahdikheirkhah060@gmail.com",
-  display: false
+  display: true
 };
 
 // Twitter Section
-
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "twitter", 
+  display: false 
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; 
 
 export {
   illustration,
