@@ -48,18 +48,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL-STACK DEVELOPER EAGER TO MASTER NEW TECH STACKS IN SOFTWARE AND FINANCE",
+  subTitle:
+    "FULL-STACK DEVELOPER EAGER TO MASTER NEW TECH STACKS IN SOFTWARE AND FINANCE",
   skills: [
     emoji(
       "⚡ Build full-stack applications using Java (Spring Boot), Go, and JavaScript frameworks like Angular and Vue.js"
     ),
-    emoji("⚡ Develop microservices architectures with Docker, Kafka, and databases like MongoDB and SQL"),
     emoji(
-      "⚡ Optimize algorithms in Python for real-world problems"
+      "⚡ Develop microservices architectures with Docker, Kafka, and databases like MongoDB and SQL"
     ),
-    emoji(
-      "⚡ Work on embedded systems with Arduino and AVR microprocessors"
-    )
+    emoji("⚡ Optimize algorithms in Python for real-world problems"),
+    emoji("⚡ Work on embedded systems with Arduino and AVR microprocessors")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,7 +99,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Go",
-      fontAwesomeClassname: "fa fa-code", // No specific FA, use code
+      fontAwesomeClassname: "fa fa-code" // No specific FA, use code
     },
     {
       skillName: "Python",
@@ -161,7 +160,11 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Engineering",
       duration: "October 2019 - September 2024",
       desc: "Core Skills: Algorithm Design & Analysis, Data Structures, Object-Oriented Programming (C++), Database Management (SQL), Operating Systems, Computer Networks.",
-      descBullets: ["Final Year Project: Developed an evacuation planning optimization model using the NSGA-II algorithm in Python.", "Teaching Experience: Teaching Assistant – Data Structures Course.",  " Specialized Coursework: Microprocessors & Assembly, Data Mining, Compiler Design, Optimization."]
+      descBullets: [
+        "Final Year Project: Developed an evacuation planning optimization model using the NSGA-II algorithm in Python.",
+        "Teaching Experience: Teaching Assistant – Data Structures Course.",
+        " Specialized Coursework: Microprocessors & Assembly, Data Mining, Compiler Design, Optimization."
+      ]
     }
   ]
 };
@@ -215,7 +218,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/evacuationProject.png"), // Add your image
       projectName: "Evacuation Planning Optimization",
-      projectDesc: "Optimized model with NSGA-II in Python, tuning hyperparameters via genetic algorithms for efficient real-world crisis mapping.",
+      projectDesc:
+        "Optimized model with NSGA-II in Python, tuning hyperparameters via genetic algorithms for efficient real-world crisis mapping.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -226,7 +230,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/buy01Project.png"), // Add your image
       projectName: "buy-01",
-      projectDesc: "Architected and developed a microservices-based e-commerce platform using Java, Spring Boot, and MongoDB on the backend and Angular for the frontend. Implemented Eureka for service discovery, Kafka for asynchronous request handling, and an API Gateway to manage and route traffic.",
+      projectDesc:
+        "Architected and developed a microservices-based e-commerce platform using Java, Spring Boot, and MongoDB on the backend and Angular for the frontend. Implemented Eureka for service discovery, Kafka for asynchronous request handling, and an API Gateway to manage and route traffic.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -237,7 +242,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/socialNetworkProject.png"), // Add your image
       projectName: "social-network",
-      projectDesc: "Created a full-stack social network application (similar to Facebook) using Vue.js for a dynamic, reactive frontend and Go with SQLite for the backend. using Github OAuth for secure authentication.",
+      projectDesc:
+        "Created a full-stack social network application (similar to Facebook) using Vue.js for a dynamic, reactive frontend and Go with SQLite for the backend. using Github OAuth for secure authentication.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -248,7 +254,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/realtimeForumProject.png"), // Add your image
       projectName: "real-time-forum",
-      projectDesc: "Upgraded a Go-based forum to feature real-time communication by integrating WebSockets, allowing for live updates without page reloads.",
+      projectDesc:
+        "Upgraded a Go-based forum to feature real-time communication by integrating WebSockets, allowing for live updates without page reloads.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -259,7 +266,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/bombermanProject.png"), // Add your image
       projectName: "bomberman",
-      projectDesc: "Built a real-time multiplayer Bomberman game using a custom-built JavaScript framework for state management, routing, and events. Powered the backend with Go and WebSockets for live connectivity.",
+      projectDesc:
+        "Built a real-time multiplayer Bomberman game using a custom-built JavaScript framework for state management, routing, and events. Powered the backend with Go and WebSockets for live connectivity.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -270,7 +278,8 @@ const bigProjects = {
     {
       //image: require("./assets/images/graphqlProject.png"), // Add your image
       projectName: "GraphQL",
-      projectDesc: "Built a JavaScript frontend application to query a GraphQL endpoint, constructing proper requests with query bodies to fetch dynamic data sets efficiently. Integrated SVG for rendering custom charts, including line charts for time-series data and radar charts for comparative analysis.",
+      projectDesc:
+        "Built a JavaScript frontend application to query a GraphQL endpoint, constructing proper requests with query bodies to fetch dynamic data sets efficiently. Integrated SVG for rendering custom charts, including line charts for time-series data and radar charts for comparative analysis.",
       footerLink: [
         {
           name: "View on GitHub",
