@@ -206,6 +206,7 @@ const bigProjects = {
   projects: [
     {
       //image: require("./assets/images/visionTrackProject.png"), // Add your image
+      image: require("./assets/images/detection.png"), // Add your image
       projectName: "Vision-Track: Real-Time Detection & Analytics",
       projectDesc:
         "Production-grade Computer Vision pipeline for real-time person detection and unique identity tracking. Features a custom YOLO model fine-tuned on a cloud GPU, ONNX quantization for low-latency edge inference, and a Streamlit command center using BoT-SORT for multi-stream foot-traffic analytics.",
@@ -230,7 +231,6 @@ const bigProjects = {
     },
     {
       //image: require("./assets/images/matrixProject.png"), // Add your image
-      image: require("./assets/images/detection.mp4"),
       projectName: "Matrix Factorization Recommender System",
       projectDesc:
         "Enterprise-grade movie recommendation engine utilizing Singular Value Decomposition (SVD) and Bayesian Probabilistic Matrix Factorization (PMF) to learn latent user preferences, featuring robust cold-start handling and an interactive Streamlit UI.",
