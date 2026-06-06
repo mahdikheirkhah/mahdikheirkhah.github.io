@@ -205,6 +205,18 @@ const bigProjects = {
     "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
   projects: [
     {
+      //image: require("./assets/images/visionTrackProject.png"), // Add your image
+      projectName: "Vision-Track: Real-Time Detection & Analytics",
+      projectDesc:
+        "Production-grade Computer Vision pipeline for real-time person detection and unique identity tracking. Features a custom YOLO model fine-tuned on a cloud GPU, ONNX quantization for low-latency edge inference, and a Streamlit command center using BoT-SORT for multi-stream foot-traffic analytics.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/vision-track"
+        }
+      ]
+    },
+    {
       //image: require("./assets/images/nlpProject.png"), // Add your image
       projectName: "NLP News Scraper & Risk Intelligence",
       projectDesc:
@@ -212,19 +224,20 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/nlp-scraper" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/nlp-scraper"
         }
       ]
     },
     {
       //image: require("./assets/images/matrixProject.png"), // Add your image
+      image: require("./assets/images/detection.mp4"),
       projectName: "Matrix Factorization Recommender System",
       projectDesc:
         "Enterprise-grade movie recommendation engine utilizing Singular Value Decomposition (SVD) and Bayesian Probabilistic Matrix Factorization (PMF) to learn latent user preferences, featuring robust cold-start handling and an interactive Streamlit UI.",
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/Matrix-Factorization" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/Matrix-Factorization"
         }
       ]
     },
@@ -248,7 +261,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/kaggle-titanic" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/kaggle-titanic"
         }
       ]
     },
@@ -260,7 +273,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/buy-01" // Update with actual link
+          url: "https://github.com/mahdikheirkhah/buy-01"
         }
       ]
     },
@@ -272,7 +285,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/mahdikheirkhah/Multi-Objective-Location-Allocation-NSGA-II" // Update with actual link if available
+          url: "https://github.com/mahdikheirkhah/Multi-Objective-Location-Allocation-NSGA-II"
         }
       ]
     }
