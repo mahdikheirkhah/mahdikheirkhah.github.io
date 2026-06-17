@@ -61,6 +61,12 @@ const skillsSection = {
       "⚡ Design and fine-tune Machine Learning models (NLP, Recommender Systems) using linear algebra and statistical methods"
     ),
     emoji(
+      "⚡ Engineer rigorous time-series strategies and backtesters focused on statistical anomalies, market risk mitigation, and drawdown optimization"
+    ),
+    emoji(
+      "⚡ Deploy compliant, white-box econometric models using advanced feature selection (RFE, WoE/IV) and post-hoc explainability frameworks (SHAP)"
+    ),
+    emoji(
       "⚡ Bridge the gap between low-level embedded systems (IoT) and high-level predictive analytics"
     )
   ],
@@ -76,6 +82,22 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Machine Learning",
       fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "Time Series Analysis",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Explainable AI (SHAP)",
+      fontAwesomeClassname: "fas fa-eye"
+    },
+    {
+      skillName: "Statistics & Math",
+      fontAwesomeClassname: "fas fa-calculator"
+    },
+    {
+      skillName: "FinTech & RegTech",
+      fontAwesomeClassname: "fas fa-balance-scale"
     },
     {
       skillName: "NLP & Data",
@@ -164,7 +186,7 @@ const techStack = {
   experience: [
     {
       Stack: "Mathematical Optimization & ML",
-      progressPercentage: "45%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Backend & Cloud Architecture",
@@ -204,6 +226,30 @@ const bigProjects = {
   subtitle:
     "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
   projects: [
+    {
+      //image: require("./assets/images/creditScoringProject.png"), // Add your image
+      projectName: "Credit Scoring & Econometric ML",
+      projectDesc:
+        "Architected an interpretable credit risk model suite (Gradient Boosting, Double-Tree) ensuring strict GDPR/CCAR compliance. Engineered behavioral risk proxies from fragmented SQL data utilizing Monotonic Binning (WoE/IV) and TreeSHAP for post-hoc explainability.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/credit-scoring"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sp500Project.png"), // Add your image
+      projectName: "S&P 500 Quantitative Trading Strategy",
+      projectDesc:
+        "Developed a rigorous machine learning trading pipeline evaluating technical indicators while strictly preventing data leakage and survivorship bias. Implemented Time-Series Split cross-validation for unbiased Out-of-Fold signals and backtested for cumulative PnL.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/mahdikheirkhah/sp500-strategies"
+        }
+      ]
+    },
     {
       //image: require("./assets/images/visionTrackProject.png"), // Add your image
       image: require("./assets/images/detection.png"), // Add your image
