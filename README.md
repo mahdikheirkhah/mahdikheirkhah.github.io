@@ -76,6 +76,7 @@ git clone https://github.com/saadpasta/developerFolio.git
 # Go into the repository
 cd developerFolio
 
+
 # Setup default environment variables
 
 # For Linux
