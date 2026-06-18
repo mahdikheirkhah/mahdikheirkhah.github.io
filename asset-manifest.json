@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.81732178.css",
-    "main.js": "/static/js/main.723e51c4.js",
+    "main.js": "/static/js/main.27cac1a3.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/detection.png": "/static/media/detection.c0c5b461ad2e68fdcda5.png",
+    "static/media/creditScoringProject.png": "/static/media/creditScoringProject.97866c1ab6ef3f41eb7c.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/sp500Project.png": "/static/media/sp500Project.01d413418d1a19e2156c.png",
     "static/media/resume.pdf": "/static/media/resume.6db92fa1b8eeb049d2cf.pdf",
@@ -20,7 +21,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.81732178.css.map": "/static/css/main.81732178.css.map",
-    "main.723e51c4.js.map": "/static/js/main.723e51c4.js.map",
+    "main.27cac1a3.js.map": "/static/js/main.27cac1a3.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -28,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.81732178.css",
-    "static/js/main.723e51c4.js"
+    "static/js/main.27cac1a3.js"
   ]
 }
