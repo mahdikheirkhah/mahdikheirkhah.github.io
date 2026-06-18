@@ -227,7 +227,7 @@ const bigProjects = {
     "KEY PROJECTS SHOWCASING MY SKILLS IN MACHINE LEARNING, DATA ENGINEERING, AND SCALABLE SYSTEMS",
   projects: [
     {
-      //image: require("./assets/images/creditScoringProject.png"), // Add your image
+      image: require("./assets/images/creditScoringProject.png"), // Add your image
       projectName: "Credit Scoring & Econometric ML",
       projectDesc:
         "Architected an interpretable credit risk model suite (Gradient Boosting, Double-Tree) ensuring strict GDPR/CCAR compliance. Engineered behavioral risk proxies from fragmented SQL data utilizing Monotonic Binning (WoE/IV) and TreeSHAP for post-hoc explainability.",
